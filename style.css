@@ -1,0 +1,98 @@
+body{
+    background-color: hsl(330, 100%, 98%);
+    min-height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+.box{
+    background-color: hsl(0, 0%, 100%);
+    width: 600px;
+    height: 1590px;
+    padding: 15px;
+    border: 20px solid;
+    border-radius: 15px;
+    border-color: hsl(0, 0%, 100%) ;
+}
+
+.picture{
+    width: 600px;
+    border-radius: 15px;
+}
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.outfit-recipe {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(30, 10%, 34%);
+
+}
+
+.outfit-time {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  color: hsl(332, 51%, 32%);
+
+}
+
+.Time{
+    margin: auto;
+    border: 5px solid;
+    padding: 15px;
+    border-color: hsl(330, 100%, 98%);
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+    
+}
+
+.young-serif-ingredients{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+}
+
+.Ingredient-font{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    color: hsl(30, 10%, 34%);
+}
+
+.color-space{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+li.purple::marker{
+    color: hsl(332, 51%, 32%); 
+}
+
+li.brown::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+
+.nutrit{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    color: hsl(30, 10%, 34%);
+    
+}
+
+#margin{
+    margin-left: 20px;
+}
